@@ -18,20 +18,20 @@ console.log(post1.likes);//"200"
 
 // question 2
 // create two instagrampost object using the constructor function
-const post1= new instagramPost('john_doe', 'had a great time at the concert last night', 'https://example.com/concert.jpg',8000, 400);
+const post3= new instagramPost('john_doe', 'had a great time at the concert last night', 'https://example.com/concert.jpg',8000, 400);
 const post2= new instagramPost('jane_smith', 'just anoter day at the beach', 'https://example.com/beach.jpg',10000, 500)
 
-console.log(post1.authorHandle);//'jane_smith'
-console.log(post1.content);//'just anoter day at the beach'
-console.log(post1.imageLink);//"https://example.com/beach.jpg"
-console.log(post1.views);//"10000"
-console.log(post1.likes);//"500"
+console.log(post2.authorHandle);//'jane_smith'
+console.log(post2.content);//'just anoter day at the beach'
+console.log(post2.imageLink);//"https://example.com/beach.jpg"
+console.log(post2.views);//"10000"
+console.log(post2.likes);//"500"
 
-console.log(post1.authorHandle);//'john_doe'
-console.log(post1.content);//'had a great time at the concert last night
-console.log(post1.imageLink);//"https://example.com/concert.jpg"
-console.log(post1.views);//"8000"
-console.log(post1.likes);//"400"
+console.log(post3.authorHandle);//'john_doe'
+console.log(post3.content);//'had a great time at the concert last night
+console.log(post3.imageLink);//"https://example.com/concert.jpg"
+console.log(post3.views);//"8000"
+console.log(post3.likes);//"400"
 
 // question 3
 // factory function that create a person object
@@ -63,7 +63,7 @@ console.log(musa.jambScore.LIT);//82
 console.log(musa.jambScore.CRK);//94
 
 // question 4
-// spread operator:this is a newer way to creat a shallo
+// question 4 is in readme.md  
 
 // question 5
 const presidentialCandidates={
@@ -74,6 +74,6 @@ const presidentialCandidates={
     NNPP: 'Rabiu Kwakwanso',
     PDP: 'Atiku Abubakar',
 };
-for(const party in presidentialCandidate){
-    console.log('${presidentialCandidates[party]} is the presidentialCandidates of $ [party']);
+for(const party in presidentialCandidates){
+    console.log('${presidentialCandidates[party]} is the presidentialCandidates of ${party}');
 }
